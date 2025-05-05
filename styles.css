@@ -90,10 +90,10 @@ header {
   justify-content: start;
   gap: 12px;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
-  cursor: pointer;
   transform-origin: center center;
 }
 .project-card:not(.cover-card):hover {
+  cursor: pointer;
   transform: scale(1.03);
   box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
 }
